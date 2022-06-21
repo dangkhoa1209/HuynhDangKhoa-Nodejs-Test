@@ -38,7 +38,7 @@
 
 5. Deploy
 
-    https://dashboard.heroku.com/apps/huynhdangkhoa-test/deploy/github
+    https://huynhdangkhoa-test.herokuapp.com
 
     (Có thể chờ 20s để server khởi động lại)
 
