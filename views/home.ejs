@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/home.css">
+    <script type="text/javascript" src="/js/home.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="box-header">
+                <div class="left">
+                    <p>
+                        <%= userLogin.name %>
+                    </p>
+
+                    <!-- <p>Huỳnh Đăng Khoa</p> -->
+                </div>
+                <div class="right">
+                    <p class="logout">Đăng xuất</p>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <p>
+                <%= userLogin.name %>
+            </p>
+        </div>
+        <% if(userLogin.chucvu == "admin"){ %> 
+            <div class="info_list_user">
+                <h3>Thông tin hệ thống</h3>
+    
+                <div class="box">
+                    <div class="item">
+                        <div class="title">
+                            <p>Tổng số người dùng</p>
+                        </div>
+                        <div class="number">
+                            <p><%=countUser%></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            <p>Người dùng đăng nhập trong 1 giờ</p>
+                        </div>
+                        <div class="number">
+                            <p><%=countUser1h%></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            <p>Người dùng đăng ký trong 1 giờ</p>
+                        </div>
+                        <div class="number">
+                            <p><%=countUserRegister1h%></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <% } %> 
+        
+</body>
+
+</html>

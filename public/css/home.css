@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 5000px;
+}
+
+.header{
+    background-color: rgb(58, 131, 131);
+    width: 100%;  
+    height: 60px;
+    position: fixed;
+    z-index: 100000;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 0px 3px rgb(58, 131, 131), 0px 0px 5px 5px rgb(58, 131, 131);
+}
+
+.box-header {
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.box-header .left{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box-header .left p{
+    margin-right: 20px;
+}
+
+.box-header .right{
+    width: 100px;
+    text-align: right;
+}
+
+.info{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.box-header p{
+    padding: 0;
+    margin: 0;
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.info_list_user{
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.info_list_user h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info_list_user .item{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
