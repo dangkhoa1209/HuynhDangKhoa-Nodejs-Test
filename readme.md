@@ -32,3 +32,13 @@
     - Bắt đầu : 8:40 21/6/2022
     - Kết thúc: 12:20 21/6/2022
 
+
+4. Github 
+    https://github.com/dangkhoa1209/HuynhDangKhoa-Nodejs-Test.git
+
+5. Deploy
+
+    https://dashboard.heroku.com/apps/huynhdangkhoa-test/deploy/github
+
+    (Có thể chờ 20s để server khởi động lại)
+
